@@ -1,0 +1,798 @@
+Unity Editor version:    2022.3.33f1 (b2c853adf198)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.33f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/det-mac3/Desktop/Unity project/final/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49861
+Successfully changed project path to: /Users/det-mac3/Desktop/Unity project/final/My project
+/Users/det-mac3/Desktop/Unity project/final/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8258472960] Host "[IP] 172.24.151.19 [Port] 0 [Flags] 2 [Guid] 2029383601 [EditorId] 2029383601 [Version] 1048832 [Id] OSXEditor(0,mac-unknown.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8258472960] Host "[IP] 172.24.151.19 [Port] 0 [Flags] 2 [Guid] 2029383601 [EditorId] 2029383601 [Version] 1048832 [Id] OSXEditor(0,mac-unknown.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 11.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.33f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/det-mac3/Desktop/Unity project/final/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.33f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56034
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001902 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.157 seconds
+Domain Reload Profiling: 430ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (157ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (120ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.398 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.326 seconds
+Domain Reload Profiling: 724ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (238ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.49 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (53.0 KB). Loaded Objects now: 3671.
+Memory consumption went from 138.9 MB to 138.8 MB.
+Total: 2.535292 ms (FindLiveObjects: 0.134792 ms CreateObjectMapping: 0.049667 ms MarkObjects: 2.245583 ms  DeleteObjects: 0.104583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3409.895786 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Prefabs/CarWaypointBased.prefab
+  artifactKey: Guid(0fb4610dba67fc24cb2a6674fb155fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Prefabs/CarWaypointBased.prefab using Guid(0fb4610dba67fc24cb2a6674fb155fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '37d2944de82ae391d5ab55cad4dfb1ea') in 0.455398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Prefabs/SkidTrail.prefab
+  artifactKey: Guid(4b6aa99de5d21424eab6ae279f31475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Prefabs/SkidTrail.prefab using Guid(4b6aa99de5d21424eab6ae279f31475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '80cee4fb41500f79fd8d1d5a8489a265') in 0.005291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.171400 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Materials/ParticleCloudWhite.mat
+  artifactKey: Guid(8cf8581298300fd4897a12b19fa8d224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Materials/ParticleCloudWhite.mat using Guid(8cf8581298300fd4897a12b19fa8d224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f9652403a331e3bb250de5a4b442123') in 0.413372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Materials/TrailSkid.mat
+  artifactKey: Guid(f4dd0bba6decdd5418fd3d541ff5f7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Materials/TrailSkid.mat using Guid(f4dd0bba6decdd5418fd3d541ff5f7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7540d268fa481aed2ee6124393ee20bf') in 0.060634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Materials/SkyCarBodyGrey.mat
+  artifactKey: Guid(d425c5c4cb38fd44f95b13e9f94575c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Materials/SkyCarBodyGrey.mat using Guid(d425c5c4cb38fd44f95b13e9f94575c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '79ed571985649b35030f25f3b627e2cf') in 0.361442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat
+  artifactKey: Guid(bedcbcc4d577778478a5f01fe1415af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat using Guid(bedcbcc4d577778478a5f01fe1415af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8808a810e10ce01ee0c5f07220e80e09') in 0.335654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.140831 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Textures/SkidTrailAlbedo.png
+  artifactKey: Guid(06e5c4401455b1d43a6255b4b8776102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Textures/SkidTrailAlbedo.png using Guid(06e5c4401455b1d43a6255b4b8776102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e671fc8b4d3459bfcee76a1fdff91254') in 0.018113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png
+  artifactKey: Guid(bd0d469704e7c934ebddc45ece4c1868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png using Guid(bd0d469704e7c934ebddc45ece4c1868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd0b93d45ac3079f4ff44af1cf99d4694') in 0.005462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png
+  artifactKey: Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png using Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1f33071fcdf64b69bf074b83b71cf370') in 0.005084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Textures/SkyCarBodyNormals.png
+  artifactKey: Guid(d4ffb7d0ebee510498fba9d50f2296f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Textures/SkyCarBodyNormals.png using Guid(d4ffb7d0ebee510498fba9d50f2296f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b806607ccfc93219466b7014e54b8d7b') in 0.036091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.221640 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Textures/ParticleCloudBlack.png
+  artifactKey: Guid(830884c18cf5e7a4895ee02c2dcd8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Textures/ParticleCloudBlack.png using Guid(830884c18cf5e7a4895ee02c2dcd8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dd6c22f7f1b7794db8351d52368604aa') in 0.031850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Textures/ParticleFlamesSheet.png
+  artifactKey: Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Textures/ParticleFlamesSheet.png using Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '468c72b28431f7061bf86f5d55aa12e9') in 0.004930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Textures/Spark.png
+  artifactKey: Guid(269490de66e33a34dad45a50e3d4c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Textures/Spark.png using Guid(269490de66e33a34dad45a50e3d4c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0259f459469b5d27133a24907a41a129') in 0.004333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Textures/SplashesLargeParticle.png
+  artifactKey: Guid(832dc5a2501052b4d8f685a7cda3b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Textures/SplashesLargeParticle.png using Guid(832dc5a2501052b4d8f685a7cda3b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8961ef854cd70914f105073e30b70fb1') in 0.007885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.687835 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/DustStorm.prefab
+  artifactKey: Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/DustStorm.prefab using Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '726e36570bd4232d5fadfc791526a155') in 0.098247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/Steam.prefab
+  artifactKey: Guid(32aafb358d61bd14b9b27ed0871fe43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/Steam.prefab using Guid(32aafb358d61bd14b9b27ed0871fe43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6a3f8a00d5fbb61c81401df5aea56bae') in 0.008013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab
+  artifactKey: Guid(98c58c8dd46640c49bb5f557afafea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab using Guid(98c58c8dd46640c49bb5f557afafea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0853b6985604ad6f9a720c99f5371d40') in 0.008552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/Smoke.prefab
+  artifactKey: Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/Smoke.prefab using Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '17852de26d846007368d8c0d65dd844b') in 0.055230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/ExplosionMobile.prefab
+  artifactKey: Guid(645413a00f7bd0242bbd6d0e5eb6f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Prefabs/ExplosionMobile.prefab using Guid(645413a00f7bd0242bbd6d0e5eb6f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d83c3f8ab83856fc9efcf148ac15384') in 0.100972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 3.693658 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleDuststorm.mat
+  artifactKey: Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleDuststorm.mat using Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c8c30cc15797ecc149d554dbd34e7307') in 0.015993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleFlames.mat
+  artifactKey: Guid(3bfa2f095c911d649bf4cb92a55ac974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleFlames.mat using Guid(3bfa2f095c911d649bf4cb92a55ac974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c81ae0717e95a3f95f4e3ff6a2571f4') in 0.018872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleFirecloud.mat
+  artifactKey: Guid(77d08210df254d845885518314593544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleFirecloud.mat using Guid(77d08210df254d845885518314593544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0132aee315110b1b999c0b9aa370ff52') in 0.011391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleFlameLicks.mat
+  artifactKey: Guid(30289309b0c21224ea5b6fcc73b07d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleFlameLicks.mat using Guid(30289309b0c21224ea5b6fcc73b07d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '75d175ffaabd0ee0b7b226199ba34c58') in 0.006004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleSmokeWhite.mat
+  artifactKey: Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleSmokeWhite.mat using Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c98eccb47fb5bb7ed6fd86f00ea30402') in 0.006178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleSmokeVertlit.mat
+  artifactKey: Guid(225843b6084e75440a6ea970a17c93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/ParticleSystems/Materials/ParticleSmokeVertlit.mat using Guid(225843b6084e75440a6ea970a17c93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '423fdf61d1e9d653427766396b2d7836') in 0.072334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.051679 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+  artifactKey: Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Prefabs/DualTouchControls.prefab using Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4db876cd950b963cefdc972e4bafb4f3') in 0.010348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+  artifactKey: Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab using Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '619ca1afce1abac8936d9034ce1f6b78') in 0.008341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 3.770553 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+  artifactKey: Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png using Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62f64516916c7b337c474cf4dca43983') in 0.015145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+  artifactKey: Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png using Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '771edd741141e0fd1b9e7d8269df6a72') in 0.009426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+  artifactKey: Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png using Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fb581df4bce8f484c5ca6dd5ffab319f') in 0.009340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+  artifactKey: Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png using Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a12392b525bb2a17bbaa4ebce368a75e') in 0.009192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+  artifactKey: Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png using Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f63270cc6b2743da19fb318af42a686d') in 0.011798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'afc2bfe577c08fc3ac1f77fcc65d722f') in 0.008921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+  artifactKey: Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png using Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81abc587690f1e518580aa1ca6b5229c') in 0.008083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/TouchpadSprite.png
+  artifactKey: Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/TouchpadSprite.png using Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f7ad92c42c0f3f5e36119542a901892d') in 0.009213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 23.996286 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/Trees/Models/Materials/AutumnLeaves2.000.mat
+  artifactKey: Guid(3de0bea7e7016b6439e19f4aa5bedc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/Trees/Models/Materials/AutumnLeaves2.000.mat using Guid(3de0bea7e7016b6439e19f4aa5bedc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f8dab4d8e3f589bd76997d1c5f49a2d') in 0.007217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/Trees/Models/Materials/AutumnLeavest1.001.mat
+  artifactKey: Guid(eee119e0b3c5abe489ec62f619ced0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/Trees/Models/Materials/AutumnLeavest1.001.mat using Guid(eee119e0b3c5abe489ec62f619ced0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6c3de93cf12f8d5c80641ea982e27fd6') in 0.005347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/inports/HyperCars/Materials/Backlights.mat
+  artifactKey: Guid(e46552fedf5b10e4e8f0621262a9554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/HyperCars/Materials/Backlights.mat using Guid(e46552fedf5b10e4e8f0621262a9554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e32b106eaf68ebfa2dd4b6c3e141f8ac') in 0.230262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.377161 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/Audio/FX/GetReady.wav
+  artifactKey: Guid(ee47b6ba27d8a484298075c6625df88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/Audio/FX/GetReady.wav using Guid(ee47b6ba27d8a484298075c6625df88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '156b7153983a488e51e27b03ff509891') in 0.067379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.733787 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/Environment/Models/roadStraightBridgeMid.fbx
+  artifactKey: Guid(0aabc7039c172dd43b14775b8d9f464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/Environment/Models/roadStraightBridgeMid.fbx using Guid(0aabc7039c172dd43b14775b8d9f464c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd34451511b84b83bce9dda8670b79c6d') in 0.019649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/inports/Racing Starter Kit/Assets/Environment/Models/roadStraightSkew.fbx
+  artifactKey: Guid(17ea3b8f54d72bc4db0744d7e6ea481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/inports/Racing Starter Kit/Assets/Environment/Models/roadStraightSkew.fbx using Guid(17ea3b8f54d72bc4db0744d7e6ea481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2a7f842ab3bce1f14a852bdf8bb1685a') in 0.027779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30fa9b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.285 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 957ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (33.7 KB). Loaded Objects now: 3738.
+Memory consumption went from 144.4 MB to 144.4 MB.
+Total: 2.713375 ms (FindLiveObjects: 0.337333 ms CreateObjectMapping: 0.044792 ms MarkObjects: 2.251375 ms  DeleteObjects: 0.079125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ff87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.831 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 1710ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (122ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (511ms)
+		LoadAssemblies (589ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3174 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (32.0 KB). Loaded Objects now: 3741.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 3.207125 ms (FindLiveObjects: 0.346542 ms CreateObjectMapping: 0.045125 ms MarkObjects: 2.727500 ms  DeleteObjects: 0.086125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16bcab000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.410 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (69ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (721ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3174 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.8 KB). Loaded Objects now: 3744.
+Memory consumption went from 150.8 MB to 150.7 MB.
+Total: 2.504291 ms (FindLiveObjects: 0.158792 ms CreateObjectMapping: 0.044041 ms MarkObjects: 2.246250 ms  DeleteObjects: 0.054708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
